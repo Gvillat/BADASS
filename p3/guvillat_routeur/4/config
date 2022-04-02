@@ -10,7 +10,7 @@ conf t
 hostname guvillat_routeur-4
 no ipv6 forwarding
 !
-interface eth2
+interface eth1
  ip address 10.1.1.10/30
  ip ospf area 0
 !
